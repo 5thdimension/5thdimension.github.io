@@ -675,11 +675,11 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@3.5.3, bluebird@^3.0.5, bluebird@^3.4.1, bluebird@^3.4.3, bluebird@^3.4.6, bluebird@^3.5.1, bluebird@^3.5.3:
+bluebird@3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
 
-bluebird@3.5.4, bluebird@^3.5.4:
+bluebird@3.5.4, bluebird@^3.0.5, bluebird@^3.4.1, bluebird@^3.4.3, bluebird@^3.4.6, bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.4.tgz#d6cc661595de30d5b3af5fcedd3c0b3ef6ec5714"
   integrity sha512-FG+nFEZChJrbQ9tIccIfZJBz3J7mLrAhxakAbnrJWn8d7aKOC+LWifa0G+p4ZqKp4y13T7juYvdhq9NzKdsrjw==
@@ -717,12 +717,12 @@ bookshelf-relations@1.1.1:
     ghost-ignition "3.1.0"
     lodash "4.17.11"
 
-bookshelf@0.14.2:
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/bookshelf/-/bookshelf-0.14.2.tgz#4b50b47a1e3d0265a1bfc118fa2036ad6a7493f2"
+bookshelf@0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/bookshelf/-/bookshelf-0.15.1.tgz#ca545ad8189a6a3be8b25661ad462dbf667222e3"
+  integrity sha512-o+N88s6A1YW2L47gqOmZgoyLD7xBikHexlPdilD/t4c4YG7Pd8RHdicxQAh07PzaGQtMOwMloSBQQoRQVC++cg==
   dependencies:
     bluebird "^3.4.3"
-    colorette "^1.0.7"
     create-error "~0.3.1"
     inflection "^1.5.1"
     lodash "^4.17.10"
@@ -1147,10 +1147,6 @@ color@^3.1.0:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
-
-colorette@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.0.7.tgz#7adf43c445ee63a541b4a4aef7d13f03df1e0cc0"
 
 colormin@^1.0.5:
   version "1.1.2"
